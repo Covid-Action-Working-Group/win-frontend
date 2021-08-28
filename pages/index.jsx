@@ -21,7 +21,7 @@ import TimelyUpdates from "../public/icons/Timely_Updates.svg"
 import TrackingTheSpread from "../public/icons/Tracking_the_spread.svg"
 
 
-export default function getStaticProps() {//
+export default function Home() {//
   return (
     <div className="font-body ">
 
