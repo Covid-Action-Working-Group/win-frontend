@@ -188,7 +188,7 @@ export default function Home() {//
 
         <div className="mt-36 md:mt-44">
           <h2 className="mt-10 md:mt-16 sm:mt-16 md:mt-40 mb-9 sm:mb-10 md:mb-10 text-3xl sm:text-4xl md:text-5xl font-extrabold  px-4 md:px-0">Core components</h2>
-          <p className="md:leading-relaxed text-2xl xl:text-3xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-16 sm:mt-16 md:mt-36 ">Wastewater Intelligence Network (WIN) has two tracks; Consortium and deploying and pilot in selected city(ies)</p>
+          <p className="md:leading-relaxed text-3xl md:px-20 sm:px-0 sm:mx-10 xl:mx-36 mt-0 sm:mt-20 md:mt-0 font-light">Wastewater Intelligence Network (WIN) programme will work towards forming a <span className=" font-bold ">consortium</span> to handhold cities and <span className=" font-bold ">deploy</span> WBE to track the spread of pathogens in cities.</p>
         </div>
 
         <div className="mt-16 lg:mt-24 mx-14 sm:mx-28 xl:mx-56 grid grid-flow-col grid-row-4 lg:grid-rows-2 grid-col1 lg:grid-cols-2 w-auto" >
