@@ -1,5 +1,7 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
-    // assetPrefix: 'https://covid-action-working-group.github.io/win-frontend/',
+    assetPrefix: isProd ? 'https://win.cov.social' : '',
     // future: { webpack5: true }
     webpack(config) {
         config.module.rules.push({
