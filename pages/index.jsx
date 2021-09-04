@@ -149,7 +149,6 @@ export default function Home() {//
         
         <div>
           <h2 className="mt-16 sm:mt-16 md:mt-40 mb-9 sm:mb-10 md:mb-10 text-3xl sm:text-4xl md:text-5xl font-extrabold px-4 md:px-0">Actionable Intelligence for Decision Makers</h2>
-          <p className="md:leading-relaxed text-2xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-16 sm:mt-16 md:mt-20 ">A method of <span className=" font-bold ">collecting samples of wastewater from sewers, STPs, lakes etc. and testing these samples for the presence and load of pathogens</span> like viruses and bacteria. Erstwhile, this method was successfully used in India to track Polio and Hepatitis A.</p>
         </div>
 
         <div className="xl:px-36">
@@ -157,17 +156,17 @@ export default function Home() {//
             <div className="bg-light-yellow row-start-1 ">
               <div className="w-1/5 mx-auto mt-6 "><EarlyWarning/></div>
               {/* <img src={Early_Warning} alt="logo" layout='fill' objectFit='contain' className="w-1/5  mx-auto mt-6"/> */}
-              <p className="px-10 py-6"><span className="font-bold"> Early warning</span> to cities (4 to 14 days ahead)</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold"> Early warning</span> to cities (4 to 14 days ahead)</p>
             </div>
             <div className="bg-light-yellow row-start-2 md:row-start-1">
               <div className="w-1/5 mx-auto mt-6 "><TrackingTheSpread/></div>
               {/* <img src={Tracking_the_spread} alt="logo" layout='fill' objectFit='contain' className="w-1/5  mx-auto mt-6"/> */}
-              <p className="px-10 py-6"><span className="font-bold">Estimating the infected population</span> & type of variant</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold">Estimating the infected population</span> & type of variant</p>
             </div>
             <div className="bg-light-yellow row-start-3 md:row-start-1 ">
             <div className="w-1/5 mx-auto mt-6 "><ContainmentZones/></div>
               {/* <img src={Containment_zones} alt="logo" layout='fill' objectFit='contain' className="w-1/5  mx-auto mt-6"/> */}
-              <p className="px-4 lg:px-10 py-6"><span className="font-bold">Identification of hotspots</span> and containment zones</p>
+              <p className="px-4 lg:px-10 py-6 font-light"><span className="font-bold">Identification of hotspots</span> and containment zones</p>
             </div>
           </div>
 
@@ -175,12 +174,12 @@ export default function Home() {//
             <div className="bg-light-yellow row-start-1 ">
               <div className="w-1/5 mx-auto mt-6 "><TestingStrategy/></div>
               {/* <img src={Testing_strategy} alt="logo" layout='fill' objectFit='contain' className="w-1/5 mx-auto mt-6"/> */}
-              <p className="px-10 py-6"><span className="font-bold">Optimising testing strategy</span> & allocation of resources</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold">Optimising testing strategy</span> & allocation of resources</p>
             </div>
             <div className="bg-light-yellow row-start-2 md:row-start-1 ">
               <div className="w-1/5 mx-auto mt-6 "><TimelyUpdates/></div>
               {/* <img src={Timely_Updates} alt="logo" layout='fill' objectFit='contain' className="w-1/5 mx-auto mt-6"/> */}
-              <p className="px-10 py-6"><span className="font-bold">Alerts</span> to authorities and citizens</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold">Alerts</span> to authorities and citizens</p>
             </div>
           </div>
         </div>
