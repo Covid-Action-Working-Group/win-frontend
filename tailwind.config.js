@@ -9,6 +9,7 @@ module.exports = {
     }),
     fontFamily: {
       // body: ["quicksand"]
+      serif: ['ui-serif', 'Georgia'],
       body: ["larsseit"]
     }
   },

@@ -227,9 +227,9 @@ export default function Home() {//
         </div>
 
       </div>
-      <div className="bg-red h-12 sm:h-16 lg:h-24 w-full text-center align-bottom text-white">
-        <p className="text-xs lg:text-lg">Made in India with love from Government of India</p>
-        <p className="text-xs lg:text-lg">© Ministry of Housing and Urban Affairs</p>
+      <div className="bg-red py-1 w-full text-center align-bottom text-white">
+        <p className="text-xs lg:text-xs font-serif py-0.5">Made in India by Government of India</p>
+        <p className="text-xs lg:text-xs font-serif py-0.5">&#169; Ministry of Housing and Urban Affairs</p>
 
       </div>
     </div>
