@@ -174,7 +174,7 @@ export default function Home() {//
             <div className="bg-light-yellow row-start-1 ">
               <div className="w-1/5 mx-auto mt-6 "><TestingStrategy/></div>
               {/* <img src={Testing_strategy} alt="logo" layout='fill' objectFit='contain' className="w-1/5 mx-auto mt-6"/> */}
-              <p className="px-10 py-6 font-light"><span className="font-bold">Optimising testing strategy</span> & allocation of resources</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold">Optimising testing strategy</span> &amp; allocation of resources</p>
             </div>
             <div className="bg-light-yellow row-start-2 md:row-start-1 ">
               <div className="w-1/5 mx-auto mt-6 "><TimelyUpdates/></div>
