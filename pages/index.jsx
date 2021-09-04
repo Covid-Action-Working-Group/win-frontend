@@ -41,8 +41,8 @@ export default function Home() {//
         <div className="flex-none col-start-3 ..."><a href='#3'>Knowledgge</a></div> */}
       </header>
       <div className = " text-center content-center px-4 md:px-12">
-        <h1 className="mt-16 sm:mt-16 md:mt-20 mb-9 sm:mb-10 md:mb-12 text-5xl sm:text-6xl md:text-7xl">Your matters</h1>
-        <p className=" xl:leading-relaxed text-3xl xl:text-4xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 md:mt-22"><span className=" bg-red text-white px-2 ">  Wastewater Intelligence Network</span>  is an initiative to bring together experts to manage the spread and impact of SARS-CoV-2 through <span className=" bg-red text-white px-2"> Wastewater-based Epidemiology</span> in Indian cities.</p>
+        <h1 className="mt-16 sm:mt-16 md:mt-20 mb-9 sm:mb-10 md:mb-12 text-5xl sm:text-6xl md:text-7xl font-thin">Your matters</h1>
+        <p className=" xl:leading-relaxed text-3xl xl:text-4xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 md:mt-22 font-light"><span className=" bg-red text-white px-2 py-1 font-bold">Wastewater Intelligence Network</span>  is an initiative to bring together experts to manage the spread and impact of SARS-CoV-2 through <span className=" bg-red text-white px-2 py-1 font-bold">Wastewater-based Epidemiology</span> in Indian cities.</p>
         <div className="mt-28 sm:mt-28 md:mt-32 mx-60 max-w-screen-lg mx-auto w-2/5">
           <Group className=" mx-auto"/>
           {/* <img src={Group_331} alt="logo" layout='fill' objectFit='contain' className="w-1/3 mx-auto"/> */}
@@ -52,7 +52,7 @@ export default function Home() {//
 
         <div className="">
           <h2 className="mt-16 sm:mt-16 md:mt-40 mb-9 sm:mb-10 md:mb-10 text-3xl sm:text-4xl md:text-5xl font-extrabold  px-4 md:px-0">Wastewater-Based Epidemiology</h2>
-          <p className="md:leading-relaxed text-2xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 sm:mt-20 md:mt-36 ">A method of <span className=" font-bold ">collecting samples of wastewater from sewers, STPs, lakes etc. and testing these samples for the presence and load of pathogens</span> like viruses and bacteria. Erstwhile, this method was successfully used in India to track Polio and Hepatitis A.</p>
+          <p className="md:leading-relaxed text-3xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-0 sm:mt-20 md:mt-0 font-light">A method of <span className=" font-bold ">collecting samples of wastewater from sewers, STPs, lakes etc. and testing these samples for the presence and load of pathogens</span> like viruses and bacteria. Erstwhile, this method was successfully used in India to track Polio and Hepatitis A.</p>
         </div>
         
         <div className="mt-24 sm:mt-24 md:mt-40 mx-40 sm:mx-40 md:mx-64 border-dotted border-t-4 border-red-400 "></div>
