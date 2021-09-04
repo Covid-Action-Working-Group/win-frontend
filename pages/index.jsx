@@ -33,7 +33,7 @@ export default function Home() {//
       </Head>
 
       <header className="flex m-0 w-full py-6 px-4 space-x-4  md:inline-flex bg-transparent ...">
-        <span className="col-span-1 ml-8 sm:ml-10 md:ml-20 w-1/3">
+        <span className="col-span-1 ml-8 sm:ml-10 md:ml-20 w-1/5">
           <HeroLogo />
         </span>
         {/* <div className="flex-none col-start-4 ..."><a href='#1'>Home</a></div>
