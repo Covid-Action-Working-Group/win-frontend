@@ -52,31 +52,29 @@ export default function Home() {//
 
         <div className="">
           <h2 className="mt-16 sm:mt-16 md:mt-40 mb-9 sm:mb-10 md:mb-10 text-3xl sm:text-4xl md:text-5xl font-extrabold  px-4 md:px-0">Wastewater-Based Epidemiology</h2>
-          <p className="md:leading-relaxed text-3xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-0 sm:mt-20 md:mt-0 font-light">A method of <span className=" font-bold ">collecting samples of wastewater from sewers, STPs, lakes etc. and testing these samples for the presence and load of pathogens</span> like viruses and bacteria. Erstwhile, this method was successfully used in India to track Polio and Hepatitis A.</p>
+          <p className="md:leading-relaxed text-3xl md:px-20 sm:px-0 sm:mx-10 xl:mx-36 mt-0 sm:mt-20 md:mt-0 font-light">A method of <span className=" font-bold ">collecting samples of wastewater from sewers, STPs, lakes etc. and testing these samples for the presence and load of pathogens</span> like viruses and bacteria. Erstwhile, this method was successfully used in India to track Polio and Hepatitis A.</p>
         </div>
         
         <div className="mt-24 sm:mt-24 md:mt-40 mx-40 sm:mx-40 md:mx-64 border-dotted border-t-4 border-red-400 "></div>
 
         <div className="w-full">
           <h2 className="mt-16 sm:mt-16 md:mt-40 mb-9 sm:mb-10 md:mb-10 text-3xl sm:text-4xl md:text-5xl font-extrabold  px-4 md:px-0">How does WBE work?</h2>
-          <p className="md:leading-relaxed text-2xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 sm:mt-20 md:mt-36 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat, neque ac tempor egestas, neque massa tempus eros, eget maximus dolor nibh ac elit.</p>
-          <div className="w-full h-full lg:px-16">
+          <p className="md:leading-relaxed text-3xl md:px-20 sm:px-0 sm:mx-10 xl:mx-36 mt-0 sm:mt-20 md:mt-0 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat, neque ac tempor egestas, neque massa tempus eros, eget maximus dolor nibh ac elit.</p>
+          <div className="w-full h-full lg:px-16 mt-10">
             <WBE/>
             {/* <img src={WBE} alt="logo" layout='fill' objectFit='contain' className="w-full h-full mt-12 sm:mt-12 md:mt-20 px-4 md:px-12"/> */}
           </div>
         </div>
 
-        <div className="mt-24 sm:mt-24 md:mt-40 mx-40 sm:mx-40 md:mx-64 border-dotted border-t-4 border-red-400 "></div>
-
         <div>
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
-            <div className=" w-1/6 lg:w-1/3 lg:mr-20 mt-20 md:mt-16 lg:mt-8  col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/4 lg:mr-20 mt-20 md:mt-16 lg:mt-20  col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
               <Sneezing/>
               {/* <img src={sneezing} alt="logo" layout='fill' objectFit='contain' className=" mx-auto "/> */}
             </div>
             <div className="text-center lg:text-left col-start-1 lg:col-start-2 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">Infection</h2>
-              <p className="  lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 ">COVID-19 is caused by the SARS-CoV-2 virus that spreads through droplets of saliva or discharge from the nose when an infected person coughs or sneezes. The incubation period of SARS-CoV-2 has been proven to be of a duration of 2 to 14 days.</p>
+              <p className="  lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 font-light">COVID-19 is caused by the SARS-CoV-2 virus that spreads through droplets of saliva or discharge from the nose when an infected person coughs or sneezes. The incubation period of SARS-CoV-2 has been proven to be of a duration of 2 to 14 days.</p>
             </div>
           </div>
 
@@ -85,14 +83,14 @@ export default function Home() {//
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">Shedding</h2>
               <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">Humans start excreting the virus as soon as they are infected by it regardless of whether they are showing symptoms. Therefore, testing wastewater for SARS-CoV-2 can aid in the early detection of the virus in a given area, even before the infected individual(s) develop symptoms or before they are aware they are infected.</p>
             </div>
-            <div className=" w-1/6 lg:w-1/3 lg:mt-20 xl:mt-9 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/4 lg:mt-20 xl:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <Shedding/>
               {/* <img src={shedding} alt="logo" layout='fill' objectFit='contain' className=" mx-auto "/> */}
             </div>
           </div>
 
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
-            <div className=" w-1/6 lg:w-1/3 lg:mr-20 mt-20 md:mt-16 lg:mt-8  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/4 lg:mr-20 mt-20 md:mt-16 lg:mt-24  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
               <SampleCollection/>
               {/* <img src={Sample_Collection} alt="logo" layout='fill' objectFit='contain' className=" mx-auto "/> */}
             </div>
@@ -107,14 +105,14 @@ export default function Home() {//
               <h2 className=" mb-2 sm:mb-2 md:mb-4  text-3xl sm:text-3xl md:text-4xl font-extrabold">Sample Concentration</h2>
               <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">By reducing the amount of water or any non-relevant materials in a diluted sample, the resulting concentrated sample contains higher amounts of SARS-CoV-2 RNA. This concentrated sample will yield better results.</p>
             </div>
-            <div className=" w-1/6 lg:w-1/3 mt-20 lg:mt-6 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/4 mt-20 lg:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <SampleConcentration/>
               {/* <img src={Sample_Concentration} alt="logo" layout='fill' objectFit='contain' className=" mx-auto "/> */}
             </div>
           </div>
 
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
-            <div className=" w-1/6 lg:w-1/3 lg:mr-20 mt-20 md:mt-16 lg:mt-12  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/2 lg:mr-20 mt-20 md:mt-24 lg:mt-20  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
               <RNAExtraction/>
               {/* <img src={RNA_Extraction} alt="logo" layout='fill' objectFit='contain' className="mx-auto "/> */}
             </div>
@@ -129,14 +127,14 @@ export default function Home() {//
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">RNA Measurement</h2>
               <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">Count of RNA in the sample is important to quantify the load of the pathogen in the wastewater. This quantification is done with RNA Measurement using RT-qPCR and RT-ddPCR.</p>
             </div>
-            <div className="w-1/6 lg:w-1/3 lg:mt-20 xl:mt-0 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className="w-1/6 lg:w-1/4 lg:mt-20 xl:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <RNAMeasurement/>
               {/* <img src={RNA_Measurement} alt="logo" layout='fill' objectFit='contain' className=" mx-auto "/> */}
             </div>
           </div>
 
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
-            <div className=" w-1/6 lg:w-1/3 lg:mr-20 mt-20 md:mt-16 lg:mt-8  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
+            <div className=" w-1/6 lg:w-1/4 lg:mr-20 mt-20 md:mt-16 lg:mt-20  -pb-60 col-start-1 row-start-1 max-w-screen-sm mx-auto content-center ">
               <DataAnalytics/>
               {/* <img src={Data_Analytics} alt="logo" layout='fill' objectFit='contain' className="mx-auto "/> */}
             </div>
