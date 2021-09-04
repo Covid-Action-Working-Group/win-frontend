@@ -81,7 +81,7 @@ export default function Home() {//
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
             <div className="text-center lg:text-right row-start-2 lg:row-start-1 col-start-1 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">Shedding</h2>
-              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">Humans start excreting the virus as soon as they are infected by it regardless of whether they are showing symptoms. Therefore, testing wastewater for SARS-CoV-2 can aid in the early detection of the virus in a given area, even before the infected individual(s) develop symptoms or before they are aware they are infected.</p>
+              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 font-light">Humans start excreting the virus as soon as they are infected by it regardless of whether they are showing symptoms. Therefore, testing wastewater for SARS-CoV-2 can aid in the early detection of the virus in a given area, even before the infected individual(s) develop symptoms or before they are aware they are infected.</p>
             </div>
             <div className=" w-1/6 lg:w-1/4 lg:mt-20 xl:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <Shedding/>
@@ -96,14 +96,14 @@ export default function Home() {//
             </div>
             <div className="text-center lg:text-left col-start-1 lg:col-start-2 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4  text-3xl sm:text-3xl md:text-4xl font-extrabold">Sample Collection</h2>
-              <p className=" lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 ">Samples from sewers, pumping stations, sewerage treatment plants or chambers in buildings are collected for testing. WIN uses grab and composite sampling at a set interval. In grab, a single sample is collected manually from the source. In composite, samples are collected by pooling multiple grab samples.</p>
+              <p className=" lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 font-light">Samples from sewers, pumping stations, sewerage treatment plants or chambers in buildings are collected for testing. WIN uses grab and composite sampling at a set interval. In grab, a single sample is collected manually from the source. In composite, samples are collected by pooling multiple grab samples.</p>
             </div>
           </div>
 
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
             <div className="text-center lg:text-right row-start-2 lg:row-start-1 col-start-1 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4  text-3xl sm:text-3xl md:text-4xl font-extrabold">Sample Concentration</h2>
-              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">By reducing the amount of water or any non-relevant materials in a diluted sample, the resulting concentrated sample contains higher amounts of SARS-CoV-2 RNA. This concentrated sample will yield better results.</p>
+              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 font-light">By reducing the amount of water or any non-relevant materials in a diluted sample, the resulting concentrated sample contains higher amounts of SARS-CoV-2 RNA. This concentrated sample will yield better results.</p>
             </div>
             <div className=" w-1/6 lg:w-1/4 mt-20 lg:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <SampleConcentration/>
@@ -118,14 +118,14 @@ export default function Home() {//
             </div>
             <div className="text-center lg:text-left col-start-1 lg:col-start-2 col-span-1 lg:col-span-2 pt-6">
               <h2 className="  mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">RNA Extraction</h2>
-              <p className=" lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 ">To count the SARS-CoV-2 RNA we first need to extract, isolate and purify the RNA from a complex sample mixture. It is performed by utilising a commercial kit for environmental sample extraction.</p>
+              <p className=" lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 font-light">To count the SARS-CoV-2 RNA we first need to extract, isolate and purify the RNA from a complex sample mixture. It is performed by utilising a commercial kit for environmental sample extraction.</p>
             </div>
           </div>
 
           <div className="mt-16 sm:mt-20 lg:mt-24 mb-11 sm:mb-12 lg:mb-16 grid grid-flow-col grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-4">
             <div className="text-center lg:text-right row-start-2 lg:row-start-1 col-start-1 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">RNA Measurement</h2>
-              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 ">Count of RNA in the sample is important to quantify the load of the pathogen in the wastewater. This quantification is done with RNA Measurement using RT-qPCR and RT-ddPCR.</p>
+              <p className="lg:leading-normal lg:ml-40 text-2xl px-8 lg:px-0 font-light">Count of RNA in the sample is important to quantify the load of the pathogen in the wastewater. This quantification is done with RNA Measurement using RT-qPCR and RT-ddPCR.</p>
             </div>
             <div className="w-1/6 lg:w-1/4 lg:mt-20 xl:mt-24 lg:ml-24 col-start-1 lg:col-start-3 row-start-1 max-w-screen-sm mx-auto content-center ">
               <RNAMeasurement/>
@@ -140,7 +140,7 @@ export default function Home() {//
             </div>
             <div className="text-center lg:text-left col-start-1 lg:col-start-2 col-span-1 lg:col-span-2 pt-6">
               <h2 className=" mb-2 sm:mb-2 md:mb-4 text-3xl sm:text-3xl md:text-4xl font-extrabold">Data Analytics</h2>
-              <p className="lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 ">The measured RNA data along with additional datasets are analysed to infer the count of infected population, identify trends and patterns of infection in the catchment area. This will enable informed decision making by the governments and other stakeholders.</p>
+              <p className="lg:leading-normal lg:mr-40 text-2xl px-8 lg:px-0 font-light">The measured RNA data along with additional datasets are analysed to infer the count of infected population, identify trends and patterns of infection in the catchment area. This will enable informed decision making by the governments and other stakeholders.</p>
             </div>
           </div>
         </div>
