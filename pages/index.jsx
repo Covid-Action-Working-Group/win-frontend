@@ -161,7 +161,7 @@ export default function Home() {//
             <div className="bg-light-yellow row-start-2 md:row-start-1">
               <div className="w-1/5 mx-auto mt-6 "><TrackingTheSpread/></div>
               {/* <img src={Tracking_the_spread} alt="logo" layout='fill' objectFit='contain' className="w-1/5  mx-auto mt-6"/> */}
-              <p className="px-10 py-6 font-light"><span className="font-bold">Estimating the infected population</span> & type of variant</p>
+              <p className="px-10 py-6 font-light"><span className="font-bold">Estimating the infected population</span> &amp; type of variant</p>
             </div>
             <div className="bg-light-yellow row-start-3 md:row-start-1 ">
             <div className="w-1/5 mx-auto mt-6 "><ContainmentZones/></div>
