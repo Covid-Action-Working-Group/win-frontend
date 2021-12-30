@@ -11,6 +11,52 @@
 	}
 }
 
+.inline {
+  display: inline-block;
+}
+
+.shit_icon {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.org_logo {
+	height: auto;
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.mohua_logo {
+	@extend .org_logo;
+  	height: 150px;
+}
+
+.niua_logo {
+  	@extend .org_logo;
+  	height: 60px;
+}
+
+.iscf_logo {
+  	@extend .org_logo;
+  	height: 100px;
+}
+
+.sscdl_logo {
+  	@extend .org_logo;
+  	height: 50px;
+}
+
+.smc_logo {
+  	@extend .org_logo;
+  	height: 100px;
+}
+
+.wbe_testing_icon {
+	display: inline-block;
+	width: 15%;
+	margin: 30px 0px;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
