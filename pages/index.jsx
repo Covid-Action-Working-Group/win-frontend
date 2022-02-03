@@ -1,8 +1,9 @@
 import Head from "next/head";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 import styles from "../styles/Home.module.scss";
 
-import HeroLogo from "../public/icons/hero_logo.svg"
 import Shit from "../public/icons/Shit.svg"
 import Group from "../public/icons/Group_331.svg"
 import WBE from "../public/icons/WBE.svg"
@@ -39,14 +40,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="flex m-0 w-full py-6 px-4 space-x-4  md:inline-flex bg-transparent ...">
-        <span className="col-span-1 ml-8 sm:ml-10 md:ml-20 w-1/5">
-          <HeroLogo />
-        </span>
-        {/* <div className="flex-none col-start-4 ..."><a href='#1'>Home</a></div>
-        <div className="flex-none col-start-3 ..."><a href='#2'>Impact</a></div>
-        <div className="flex-none col-start-3 ..."><a href='#3'>Knowledge</a></div> */}
-      </header>
+      <Header/>
+
+      
       <div className = " text-center content-center px-4 md:px-12">
         <h1 className="mt-16 sm:mt-16 md:mt-20 mb-9 sm:mb-10 md:mb-12 text-5xl sm:text-6xl md:text-7xl font-thin">Your <Shit className={styles.shit_icon}/> matters</h1>
         <p className=" xl:leading-relaxed text-3xl xl:text-4xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 md:mt-22 font-light"><span className=" bg-red text-white px-2 py-1 font-bold">Wastewater Intelligence Network</span>  is an initiative to bring together experts to manage the spread and impact of SARS-CoV-2 through <span className=" bg-red text-white px-2 py-1 font-bold">Wastewater-based Epidemiology</span> in Indian cities.</p>
@@ -247,11 +243,9 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="bg-red py-1 w-full text-center align-bottom text-white">
-        <p className="text-xs lg:text-xs font-serif py-0.5">Made in India by Government of India. Reach out to us at <a href="mailto:name@email.com">win@niua.org</a></p>
-        <p className="text-xs lg:text-xs font-serif py-0.5">&#169; Ministry of Housing and Urban Affairs</p>
 
-      </div>
+      <Footer/>
+      
     </div>
   );
 }
