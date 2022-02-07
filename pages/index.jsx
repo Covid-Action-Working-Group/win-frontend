@@ -44,7 +44,7 @@ export default function Home() {
 
       
       <div className = " text-center content-center px-4 md:px-12">
-        <h1 className="mt-16 sm:mt-16 md:mt-20 mb-9 sm:mb-10 md:mb-12 text-5xl sm:text-6xl md:text-7xl font-thin">Your <Shit className={styles.shit_icon}/> matters</h1>
+        {/* <h1 className="mt-16 sm:mt-16 md:mt-20 mb-9 sm:mb-10 md:mb-12 text-5xl sm:text-6xl md:text-7xl font-thin">Your <Shit className={styles.shit_icon}/> matters</h1> */}
         <p className=" xl:leading-relaxed text-3xl xl:text-4xl px-10 sm:px-0 sm:mx-10 xl:mx-36 mt-20 md:mt-22 font-light"><span className=" bg-red text-white px-2 py-1 font-bold">Wastewater Intelligence Network</span>  is an initiative to bring together experts to manage the spread and impact of SARS-CoV-2 through <span className=" bg-red text-white px-2 py-1 font-bold">Wastewater-based Epidemiology</span> in Indian cities.</p>
         
         <div className="mt-28 sm:mt-28 md:mt-32 mx-60 max-w-screen-lg mx-auto w-4/5">
